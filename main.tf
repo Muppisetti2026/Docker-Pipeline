@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "docker_ec2" {
   ami           = "ami-01e082ac2f79f3918" # Amazon Linux 2 AMI
   instance_type = "t3.micro"
-  key_name      = "muniraj"
+  key_name      = "Muniraj"
 
   tags = {
     Name ="DockerEC2"
